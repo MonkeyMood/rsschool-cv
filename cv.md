@@ -28,7 +28,7 @@ Sorry, I haven't any examples.
 
 ### **6. Experience:**  
 
-Self-study on YouTube and on the HTML Academy website (Only HTML and CSS), training at the RS School 2020. 
+Self-study on [YouTube][1] and on the [HTML Academy][2] website (Only HTML and CSS), training at the [RS School][3] 2020. 
 
 ### **7. Education:** 
 
@@ -36,4 +36,9 @@ Kozminski University in Warsaw.
 
 ### **8. English:** 
 
-A2 (Skyeng).
+A2 ([Skyeng][4]).
+
+[1]: ttps://www.youtube.com
+[2]: https://htmlacademy.ru
+[3]: https://rs.school/js/
+[4]: https://skyeng.ru/
