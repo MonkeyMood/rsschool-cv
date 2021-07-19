@@ -5,6 +5,7 @@
 * Temporary Polish number: +48 732 811 183
 * Email: yarmolkevich342@gmail.com
 * [Telegram](https://t.me/yarmolkevich_an)
+* Skype: MonkeyMood
 
 ### About me:
 
