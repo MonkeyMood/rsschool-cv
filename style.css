@@ -1,0 +1,367 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    max-width: 1197px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #272020;
+}
+
+
+/* Navigation */
+
+nav {
+    padding: 30px 0;
+    background-color: #817070;
+    text-align: center;
+}
+
+.active {
+    display: inline-block;
+    width: 59px;
+    height: 59px;
+    border: 1px solid #eaeaea;
+    transform: rotate(45deg);
+    transition: background-color .4s, box-shadow .4s;
+}
+
+.active:not(:last-child) {
+    margin-right: 19px;
+}
+
+.description::before {
+    content: "";
+    width: 24px;
+    height: 24px;
+    display: block;
+    background-image: url('./icon/user.svg');
+    background-repeat: no-repeat;
+    margin: calc(50% - 12px) auto 0;
+    transform: rotate(-45deg);
+}
+
+.call::before {
+    content: "";
+    width: 24px;
+    height: 24px;
+    display: block;
+    background-image: url('./icon/contact.svg');
+    background-repeat: no-repeat;
+    margin: calc(50% - 12px) auto 0;
+    transform: rotate(-45deg);
+}
+
+.skill::before {
+    content: "";
+    width: 24px;
+    height: 24px;
+    display: block;
+    background-image: url('./icon/skills.svg');
+    background-repeat: no-repeat;
+    margin: calc(50% - 12px) auto 0;
+    transform: rotate(-45deg);
+}
+
+.cods::before {
+    content: "";
+    width: 24px;
+    height: 24px;
+    display: block;
+    background-image: url('./icon/code.svg');
+    background-repeat: no-repeat;
+    margin: calc(50% - 12px) auto 0;
+    transform: rotate(-45deg);
+}
+
+.online::before {
+    content: "";
+    width: 24px;
+    height: 24px;
+    display: block;
+    background-image: url('./icon/online.svg');
+    background-repeat: no-repeat;
+    margin: calc(50% - 12px) auto 0;
+    transform: rotate(-45deg);
+}
+
+.edu::before {
+    content: "";
+    width: 24px;
+    height: 24px;
+    display: block;
+    background-image: url('./icon/education.svg');
+    background-repeat: no-repeat;
+    margin: calc(50% - 12px) auto 0;
+    transform: rotate(-45deg);
+}
+
+.lang::before {
+    content: "";
+    width: 24px;
+    height: 24px;
+    display: block;
+    background-image: url('./icon/lang.svg');
+    background-repeat: no-repeat;
+    margin: calc(50% - 12px) auto 0;
+    transform: rotate(-45deg);
+}
+
+.active:hover {
+    background-color: #8c7b7b;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0.5);
+    transition: all 2s liner 2s;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    color: #272020;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+a:visited {
+    color: #272020;
+}
+
+a:hover {
+    color: #8c7b7b;
+}
+
+.container {
+    padding: 20px 10px 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+/* Contacts */
+
+section {
+    width: 50%;
+}
+
+.contact {
+    width: 50%;
+}
+
+.contact-title {
+    font-size: 60px;
+    padding: 125px 100px 10px 150px
+}
+
+.contact-subtitle {
+    font-size: 30px;
+    padding: 0 100px 145px 150px;
+}
+
+.title {
+    width: 150px;
+    height: 40px;
+    background-color: #DBCCCB;
+    border-radius: 3%;
+    text-align: center;
+    line-height: 40px;
+    font-size: 15px;
+}
+
+.contact-social {
+    padding-left: 100px;
+}
+
+.contact-social__title {
+    margin-bottom: 10px;
+}
+
+h5 {
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.social-item {
+    padding: 0 0 20px 20px;
+}
+
+.social-item__title {
+    padding: 10px;
+    color: black;
+}
+
+.social-item__link {
+    padding-left: 5px;
+}
+
+
+/* About Me*/
+
+.about {
+    width: 50%;
+    justify-content: flex-end;
+}
+
+.about-me__title {
+    margin: 20px 0;
+}
+
+.about-me__subtitle {
+    margin: 75px 0 65px;
+}
+
+.about-me__icon {
+    width: 350px;
+    position: relative;
+    left: 80px;
+}
+
+
+/* Education */
+
+.education {
+    margin-left: 100px;
+    width: calc(50% - 100px);
+}
+
+.education__title {
+    margin-bottom: 10px;
+}
+
+.education-info {
+    padding-bottom: 10px;
+}
+
+.education-info__item {
+    padding: 10px;
+}
+
+
+/* Online Courses */
+
+.courses__title {
+    margin-bottom: 10px;
+}
+
+.courses__list {
+    margin-bottom: 10px;
+}
+
+.courses__item {
+    padding: 10px 0;
+}
+
+
+/* Skills */
+
+.skills__title {
+    margin-bottom: 10px;
+}
+
+.slills__item {
+    padding-bottom: 20px;
+}
+
+
+/* Languages */
+
+.languages__title {
+    margin-bottom: 20px;
+}
+
+.languages__list {
+    padding-bottom: 10px;
+}
+
+.languages__item {
+    padding-bottom: 20px;
+}
+
+
+/* Simple Code */
+
+.code {
+    max-width: 50%;
+    margin-top: 70px;
+    margin-left: 100px;
+}
+
+.code-item {
+    border: 1px solid #DBCCCB;
+    margin-bottom: 5px;
+    background-color: #DBCCCB;
+}
+
+.code-title {
+    display: block;
+    cursor: pointer;
+    padding: 10px 15px;
+    transition: background .2s ease-out;
+    position: relative;
+}
+
+.code-title::after {
+    content: "";
+    display: block;
+    border-style: solid;
+    border-width: 8px 5px 0 5px;
+    border-color: #fff transparent transparent transparent;
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    transform: translateY(-50%);
+}
+
+.code-title:hover {
+    background-color: #817070;
+    color: #DBCCCB;
+}
+
+.code-text {
+    display: none;
+    font-size: 14px;
+    padding: 10px 15px;
+}
+
+.code-input {
+    appearance: none;
+    position: absolute;
+}
+
+.code-input:checked~.code-title {
+    background-color: #817070;
+}
+
+.code-input:checked~.code-title::after {
+    content: "";
+    display: block;
+    border-style: solid;
+    border-width: 0 5px 8px 5px;
+    border-color: transparent transparent #fff transparent;
+}
+
+.code-input:checked~.code-text {
+    display: block;
+}
+
+.simple-code {
+    margin-left: 100px;
+    width: calc(50% - 100px);
+}
+
+
+/* Footer */
+
+.footer {
+    padding: 30px 0;
+    background-color: #817070;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}

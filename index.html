@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>cv</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="#1" class="description active"></a>
+            <a href="#2" class="call active"></a>
+            <a href="#3" class="edu active"></a>
+            <a href="#4" class="skill active"></a>
+            <a href="#5" class="online active"></a>
+            <a href="#6" class="cods active"></a>
+            <a href="#7" class="lang active"></a>
+        </nav>
+    </header>
+    <main>
+        <div class="container" id="1">
+            <section class="contact">
+                <h1 class="contact-title">Anastasiya Lashkevich</h1>
+                <p class="contact-subtitle">frontend developer</p>
+                <div class="contact-social">
+                    <h3 class="contact-social__title title">Contacts</h3>
+                    <ul class="social-item" id="2">
+                        <li>
+                            <h5 class="social-item__title">Phone</h5>
+                            <a href="tel:+48732811183" class="social-item__link">+48 732 811 183</a>
+                        </li>
+                        <li>
+                            <h5 class="social-item__title">Telegram</h5>
+                            <a href="https://t.me/yarmolkevich_an" class="social-item__link">yarmolkevich_an</a>
+                        </li>
+                        <li>
+                            <h5 class="social-item__title">Github</h5>
+                            <a href="https://github.com/MonkeyMood" class="social-item__link">MonkeyMood</a>
+                        </li>
+                        <li>
+                            <h5 class="social-item__title">Email</h5>
+                            <a href="mailto:yarmolkevich342@gmail.com" class="social-item__link">yarmolkevich342@gmail.com</a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <section class="about">
+                <img class="about-me__icon" src="./icon/photo.png" alt="My Photo" width="300">
+                <h3 class="about-me__title title">About Me</h3>
+                <p class="about-me__subtitle">I have 2 diplomas, but I see these professions only as assistants, and my goal is to become a frontend developer!<br> I am ideological, disciplined, I like to study new information and "break my brain" by solving complex problems. <br>                    I love people. I can work in a team and easily explain complex things. I can find a common language in any team.
+                </p>
+            </section>
+            <section class="education">
+                <h3 class="education__title title" id="3">Education</h3>
+                <div class="education-info">
+                    <div class="education-info__item">
+                        <h5>2021 - Present</h5>
+                        <p><a href="https://app.rs.school/">RS School</a></p>
+                    </div>
+                    <div class="education-info__item">
+                        <h5>2018 - 2021</h5>
+                        <p><a href="https://www.vistula.edu.pl/en">Vistula University</a> in Warsaw Project Management<br> Bachelor’s degree</p>
+                    </div>
+                    <div class="education-info__item">
+                        <h5>2015 - 2018</h5>
+                        <p>College <a href="http://www.mcb.by/">MCB</a> in Minsk "Tourism and hospitality"</p>
+                    </div>
+                </div>
+            </section>
+            <section class="online-courses" id="5">
+                <h3 class="courses__title title">Online Courses</h3>
+                <ul class="courses__list">
+                    <li class="courses__item">
+                        <a href="https://ru.code-basics.com/languages/html">HTML for beginners</a>
+                    </li>
+                    <li class="courses__item">
+                        <a href="https://ru.code-basics.com/languages/css">CSS for beginners</a>
+                    </li>
+                    <li class="courses__item"> YouTube channel
+                        <a href="https://www.youtube.com/channel/UCE9ODjNIkOHrnSdkYWLfYhg">webDev</a> and
+                        <a href="https://www.youtube.com/channel/UCedskVwIKiZJsO8XdJdLKnA">Freelancer for life</a>
+                    </li>
+                    <li class="courses__item">
+                        <a href="https://www.codegirl.ru/">CodeGirl School</a>
+                    </li>
+                    <li class="courses__item">
+                        <a href="https://learn.javascript.ru/">Modern JavaScript Tutorial</a>
+                    </li>
+                    <li class="courses__item">
+                        <a href="https://www.codewars.com/">Codewars</a>
+                    </li>
+                </ul>
+            </section>
+            <section class="simple-code" id="6">
+                <h3 class="simple-code__title title">Simple Code</h3>
+                <div class="code">
+                    <div class="code-item">
+                        <input class="code-input" type="checkbox" id="code_1" name="code_1">
+                        <label for="code_1" class="code-title">Click here :)</label>
+                        <div class="code-text">
+                            <p><code>
+                                function checkParent (src, dest) {<br>
+                                 while (src != null) {<br>
+                                   if (src.tagName == dest) return src<br>
+                                    src = src.parentElement<br>
+                                 }<br>
+                                return null<br>
+                            }</code></p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="skills" id="4">
+                <h3 class="skills__title title">Skills</h3>
+                <ul class="skills__list">
+                    <li class="slills__item">HTML</li>
+                    <li class="slills__item">CSS (SCSS)</li>
+                    <li class="slills__item">Git</li>
+                    <li class="slills__item">Figma, Photoshop, Sketch</li>
+                </ul>
+                <div class="languages" id="7">
+                    <h3 class="languages__title title">Languages</h3>
+                    <ul class="languages__list">
+                        <li class="languages__item">English: Pre-intermediate</li>
+                        <li class="languages__item">Polish: Upper Intermediate</li>
+                        <li class="languages__item">Russian: Native speaker</li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="footer__iconGH">
+            <a href="https://github.com/MonkeyMood"> <img src="./icon/github.png" alt="Github logo" width="50"></a>
+        </div>
+        <div class="footer__iconRS">
+            <a href="https://rs.school/js/"><img src="./icon/rs_school.svg" alt="RS logo" width="50"></a>
+        </div>
+        <div>
+            <h5>2021</h5>
+        </div>
+    </footer>
+</body>
+
+</html>
